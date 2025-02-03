@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget App</title>
+    <link rel="stylesheet" href="budget.css">
+    <script defer src="budget.js"></script>
+    <script src="https://kit.fontawesome.com/4ef0064f54.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h2>Budget App</h2>
+        <div class="error_message">
+            <p>Please Enter budget amount! More than 0</p>
+        </div>
+        <div class="budgetContent">
+            <div class="urBudget">
+                <form>
+                    <label for="budget">Your Budget : </label>
+                    <input type="number" placeholder="Enter Your Budget" class="budgetInput">
+                    <button class="btn" id="btnBudget">Calculate</button>
+                </form>
+            </div>
+            <div class="urExpenses">
+                <form>
+                    <label for="expenses">Expenses Details : </label>
+                    <input type="text" placeholder="Enter Your Expenses Desc!" class="expensesInput">
+                    <input type="number" placeholder="Enter Your Expenses Amount" class="expensesAmount">
+                    <button class="btn" id="btnExpenses">Add Expenses</button>
+                </form>
+            </div>
+        </div>
+        <ul class="cards">
+            <li>
+                <i class="fa-solid fa-money-bill"></i>
+                <div class="info">
+                    <h3><span>$</span><span class="budgetCard">7,373</span></h3>
+                    <p>Budget</p>
+                </div>
+            </li>    
+            <li>
+                <i class="fa-solid fa-credit-card"></i>
+                <div class="info">
+                    <h3><span>$</span><span class="expensesCard">9,373</span></h3>
+                    <p>Expenses</p>
+                </div>
+            </li>
+            <li>
+                <i class="fa-solid fa-dollar-sign"></i>
+                <div class="info">
+                    <h3><span>$</span><span class="balanceCard">3,373</span></h3>
+                    <p>Balance</p>
+                </div>
+            </li>
+        </ul>
+
+        <!-- Table content start -->
+        <div class="tableContent">
+            <h3>Budget Details</h3>
+            <div class="tableData">
+                <!-- <ul class="tblTrContent">
+                    <li>1</li>
+                <li>Gaming Mouse</li>
+                <li><span>$</span>600</li>
+                <li>
+                    <button type="button" class="btnEdit">Edit</button>
+                    <button type="button" class="btnDelete">Delete</button>
+                </li>
+                </ul> -->
+                
+            </div>
+        </div>
+            
+   </div>
+</body>
+</html>
