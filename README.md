@@ -5,8 +5,7 @@ This time I created a budget calculating website to keep a check on daily expens
 1. [Features](#features)  
 2. [Technologies Used](#technologies-used)  
 3. [Installation](#installation)  
-4. [Usage](#usage)  
-5. [Screenshots](#screenshots)  
+4. [Usage](#usage)   
 
 ## 🚀 Features  
 ✅ Add income and expenses  
@@ -20,5 +19,9 @@ This time I created a budget calculating website to keep a check on daily expens
 
 1. **Clone the repository:**  
    ```bash
-   git clone https://github.com/YOUR_USERNAME/Budget-App.git
-   cd Budget-App
+   git clone :
+   https://github.com/yashica-kuki/Budget-app.git
+
+#### 🎯 Usage
+1. Open the app and add your income and expenses.
+2. View real-time updates on your budget
