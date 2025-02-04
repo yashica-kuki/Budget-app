@@ -17,7 +17,7 @@ This time I created a budget calculating website to keep a check on daily expens
 
 ### Installation:  
 
-1. **Clone the repository:**  
+1. **Fork the repository:**  
    ```bash
    git clone :
    https://github.com/yashica-kuki/Budget-app.git
