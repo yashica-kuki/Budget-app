@@ -1,4 +1,4 @@
-# Budget-app
+# Budget Tracker App
 This time I created a budget calculating website to keep a check on daily expenses and Balance left. It has a user-friendly interface and migth look simple now but i would like to improve in my next project 
 
 ## 📌 Table of Contents  
